@@ -1,194 +1,219 @@
 English,French
-Afghanistan,Afghanistan
-Albania,Albanie
-Algeria,Algérie
-Andorra,Andorre
-Angola,Angola
-Antigua and Barbuda,Antigua-et-Barbuda
-Argentina,Argentine
-Armenia,Arménie
-Australia,Australie
-Austria,Autriche
-Azerbaijan,Azerbaïdjan
-Bahamas,Bahamas
-Bahrain,Bahreïn
-Bangladesh,Bangladesh
-Barbados,Barbade
-Belarus,Biélorussie
-Belgium,Belgique
-Belize,Belize
-Benin,Bénin
-Bhutan,Bhoutan
-Bolivia,Bolivie
-Bosnia and Herzegovina,Bosnie-Herzégovine
-Botswana,Botswana
-Brazil,Brésil
-Brunei,Brunei
-Bulgaria,Bulgarie
-Burkina Faso,Burkina Faso
-Burundi,Burundi
-Cambodia,Cambodge
-Cameroon,Cameroun
-Canada,Canada
-Cape Verde,Cap-Vert
-Central African Republic,République centrafricaine
-Chad,Tchad
-Chile,Chili
-China,Chine
-Colombia,Colombie
-Comoros,Comores
-Costa Rica,Costa Rica
-Côte d’Ivoire,Côte d’Ivoire
-Croatia,Croatie
-Cuba,Cuba
-Cyprus,Chypre
-Czech Republic,République tchèque
-Democratic Republic of the Congo,République démocratique du Congo
-Denmark,Danemark
-Djibouti,Djibouti
-Dominica,Dominique
-Dominican Republic,République dominicaine
-East Timor,Timor oriental
-Ecuador,Équateur
-Egypt,Égypte
-El Salvador,Salvador
-Equatorial Guinea,Guinée équatoriale
-Eritrea,Érythrée
-Estonia,Estonie
-Ethiopia,Éthiopie
-Fiji,Fidji
-Finland,Finlande
-France,France
-Gabon,Gabon
-Gambia,Gambie
-Georgia,Géorgie
-Germany,Allemagne
-Ghana,Ghana
-Greece,Grèce
-Grenada,Grenade
-Guatemala,Guatemala
-Guinea,Guinée
-Guinea-Bissau,Guinée-Bissau
-Guyana,Guyane
-Haiti,Haïti
-Honduras,Honduras
-Hungary,Hongrie
-Iceland,Islande
-India,Inde
-Indonesia,Indonésie
-Iran,Iran
-Iraq,Irak
-Ireland,Irlande
-Israel,Israël
-Italy,Italie
-Jamaica,Jamaïque
-Japan,Japon
-Jordan,Jordan
-Kazakhstan,Kazakhstan
-Kenya,Kenya
-Kiribati,Kiribati
-Kuwait,Koweït
-Kyrgyzstan,Kirghizistan
-Laos,Laos
-Latvia,Lettonie
-Lebanon,Liban
-Lesotho,Lesotho
-Liberia,Liberia
-Libya,Libye
-Liechtenstein,Liechtenstein
-Lithuania,Lituanie
-Luxembourg,Luxembourg
-Madagascar,Madagascar
-Malawi,Malawi
-Malaysia,Malaisie
-Maldives,Maldives
-Mali,Mali
-Malta,Malte
-Marshall Islands,Îles Marshall
-Mauritania,Mauritanie
-Mauritius,Maurice
-Mexico,Mexique
-Micronesia,Micronésie
-Moldova,Moldavie
-Monaco,Monaco
-Mongolia,Mongolie
-Montenegro,Monténégro
-Morocco,Maroc
-Mozambique,Mozambique
-Myanmar,Birmanie
-Namibia,Namibie
-Nauru,Nauru
-Nepal,Népal
-Netherlands,Pays-Bas
-New Zealand,Nouvelle-Zélande
-Nicaragua,Nicaragua
-Niger,Niger
-Nigeria,Nigeria
-North Korea,Corée du Nord
-Norway,Norvège
-Oman,Oman
-Pakistan,Pakistan
-Palau,Palau
-Panama,Panama
-Papua New Guinea,Papouasie-Nouvelle-Guinée
-Paraguay,Paraguay
-Peru,Pérou
-Philippines,Philippines
-Poland,Pologne
-Portugal,Portugal
-Qatar,Qatar
-Republic of the Congo,République du Congo
-Republic of Macedonia,Macédoine
-Romania,Roumanie
-Russia,Russie
-Rwanda,Rwanda
-Saint Kitts and Nevis,Saint-Christophe-et-Niévès
-Saint Lucia,Sainte-Lucie
-Saint Vincent and the Grenadines,Saint-Vincent-et-les-Grenadines
-Samoa,Samoa
-San Marino,Saint-Marin
-Sao Tomeand Principe,São Tomé-et-Principe
-Saudi Arabia,Arabie saoudite
-Senegal,Sénégal
-Serbia,Serbie
-Seychelles,Seychelles
-Sierra Leone,Sierra Leone
-Singapore,Singapour
-Slovakia,Slovaquie
-Slovenia,Slovénie
-Solomon Islands,Îles Salomon
-Somalia,Somalie
-South Africa,Afrique du Sud
-South Korea,Corée du Sud
-South Sudan,Soudan du Sud
-Spain,Espagne
-Sri Lanka,Sri Lanka
-Sudan,Soudan
-Suriname,Suriname
-Swaziland,Swaziland
-Sweden,Suède
-Switzerland,Suisse
-Syria,Syrie
-Tajikistan,Tadjikistan
-Tanzania,Tanzanie
-Thailand,Thaïlande
-Togo,Togo
-Tonga,Tonga
-Trinidad and Tobago,Trinité-et-Tobago
-Tunisia,Tunisie
-Turkey,Turquie
-Turkmenistan,Turkménistan
-Tuvalu,Tuvalu
-Uganda,Ouganda
-Ukraine,Ukraine
-United Arab Emirates,Émirats arabes unis
-United Kingdom,Royaume-Uni
-United States of America,États-Unis
-Uruguay,Uruguay
-Uzbekistan,Ouzbékistan
-Vanuatu,Vanuatu
-Venezuela,Venezuela
-Vietnam,Viêt Nam
-Yemen,Yémen
-Zambia,Zambie
-Zimbabwe,Zimbabwe
+"Afghanistan","Afghanistan"
+"Albania","Albanie"
+"Algeria","Algérie"
+"Andorra","Andorre"
+"Angola","Angola"
+"Antigua and Barbuda","Antigua-et-Barbuda"
+"Argentina","Argentine"
+"Armenia","Arménie"
+"Australia","Australie"
+"Austria","Autriche"
+"Azerbaijan","Azerbaïdjan"
+"Bahamas","Bahamas"
+"Bahrain","Bahreïn"
+"Bangladesh","Bangladesh"
+"Barbados","Barbade"
+"Belarus","Biélorussie"
+"Belgium","Belgique"
+"Belize","Belize"
+"Benin","Bénin"
+"Bermuda","Bermudes"
+"Bhutan","Bhoutan"
+"Bolivia","Bolivie"
+"Bolivia (Plurinational State of)","Bolivie (État plurinational de)"
+"Bosnia and Herzegovina","Bosnie-Herzégovine"
+"Botswana","Botswana"
+"Brazil","Brésil"
+"Brunei","Brunei"
+"Brunei Darussalam","Brunéi Darussalam"
+"Bulgaria","Bulgarie"
+"Burkina Faso","Burkina Faso"
+"Burundi","Burundi"
+"Cabo Verde","Cabo Verde"
+"Cambodia","Cambodge"
+"Cameroon","Cameroun"
+"Canada","Canada"
+"Cape Verde","Cap-Vert"
+"Central African Republic","République centrafricaine"
+"Chad","Tchad"
+"Chile","Chili"
+"China, Hong Kong SAR","Chine - RAS de Hong-Kong"
+"China, Macao SAR","Chine - RAS de Macao"
+"China, mainland","Chine, continentale"
+"China, Taiwan Province of","Chine, Taiwan Province de"
+"China","Chine"
+"Colombia","Colombie"
+"Congo","Congo"
+"Comoros","Comores"
+"Costa Rica","Costa Rica"
+"Côte d’Ivoire","Côte d’Ivoire"
+"Côte d'Ivoire","Côte d'Ivoire"
+"Croatia","Croatie"
+"Cuba","Cuba"
+"Cyprus","Chypre"
+"Czechia","Tchéquie (la)"
+"Czech Republic","République tchèque"
+"Democratic People's Republic of Korea","République populaire démocratique de Corée"
+"Democratic Republic of the Congo","République démocratique du Congo"
+"Denmark","Danemark"
+"Djibouti","Djibouti"
+"Dominica","Dominique"
+"Dominican Republic","République dominicaine"
+"East Timor","Timor oriental"
+"Ecuador","Équateur"
+"Egypt","Égypte"
+"El Salvador","Salvador"
+"Equatorial Guinea","Guinée équatoriale"
+"Eritrea","Érythrée"
+"Eswatini","Eswatini"
+"Estonia","Estonie"
+"Ethiopia","Éthiopie"
+"Fiji","Fidji"
+"Finland","Finlande"
+"France","France"
+"French Polynesia","Polynésie française"
+"Gabon","Gabon"
+"Gambia","Gambie"
+"Georgia","Géorgie"
+"Germany","Allemagne"
+"Ghana","Ghana"
+"Greece","Grèce"
+"Grenada","Grenade"
+"Guatemala","Guatemala"
+"Guinea","Guinée"
+"Guinea-Bissau","Guinée-Bissau"
+"Guyana","Guyane"
+"Haiti","Haïti"
+"Honduras","Honduras"
+"Hungary","Hongrie"
+"Iceland","Islande"
+"India","Inde"
+"Indonesia","Indonésie"
+"Iran","Iran"
+"Iran (Islamic Republic of)","Iran (République islamique d')"
+"Iraq","Irak"
+"Ireland","Irlande"
+"Israel","Israël"
+"Italy","Italie"
+"Jamaica","Jamaïque"
+"Japan","Japon"
+"Jordan","Jordan"
+"Kazakhstan","Kazakhstan"
+"Kenya","Kenya"
+"Kiribati","Kiribati"
+"Kuwait","Koweït"
+"Kyrgyzstan","Kirghizistan"
+"Lao People's Democratic Republic","République démocratique populaire lao"
+"Laos","Laos"
+"Latvia","Lettonie"
+"Lebanon","Liban"
+"Lesotho","Lesotho"
+"Liberia","Liberia"
+"Libya","Libye"
+"Liechtenstein","Liechtenstein"
+"Lithuania","Lituanie"
+"Luxembourg","Luxembourg"
+"Madagascar","Madagascar"
+"Malawi","Malawi"
+"Malaysia","Malaisie"
+"Maldives","Maldives"
+"Mali","Mali"
+"Malta","Malte"
+"Marshall Islands","Îles Marshall"
+"Mauritania","Mauritanie"
+"Mauritius","Maurice"
+"Mexico","Mexique"
+"Micronesia","Micronésie"
+"Moldova","Moldavie"
+"Monaco","Monaco"
+"Mongolia","Mongolie"
+"Montenegro","Monténégro"
+"Morocco","Maroc"
+"Mozambique","Mozambique"
+"Myanmar","Birmanie"
+"Namibia","Namibie"
+"Nauru","Nauru"
+"Nepal","Népal"
+"Netherlands","Pays-Bas"
+"New Zealand","Nouvelle-Zélande"
+"Nicaragua","Nicaragua"
+"Niger","Niger"
+"Nigeria","Nigeria"
+"North Korea","Corée du Nord"
+"New Caledonia","Nouvelle-Calédonie"
+"Norway","Norvège"
+"Oman","Oman"
+"Pakistan","Pakistan"
+"Palau","Palau"
+"Panama","Panama"
+"Papua New Guinea","Papouasie-Nouvelle-Guinée"
+"Paraguay","Paraguay"
+"Peru","Pérou"
+"Philippines","Philippines"
+"Poland","Pologne"
+"Portugal","Portugal"
+"Qatar","Qatar"
+"Republic of the Congo","République du Congo"
+"Republic of Macedonia","Macédoine"
+"Republic of Korea","République de Corée"
+"Republic of Moldova","République de Moldova"
+"Romania","Roumanie"
+"Russia","Russie"
+"Russian Federation","Fédération de Russie"
+"Rwanda","Rwanda"
+"Saint Kitts and Nevis","Saint-Christophe-et-Niévès"
+"Saint Lucia","Sainte-Lucie"
+"Saint Vincent and the Grenadines","Saint-Vincent-et-les-Grenadines"
+"Samoa","Samoa"
+"San Marino","Saint-Marin"
+"Sao Tomeand Principe","São Tomé-et-Principe"
+"Saudi Arabia","Arabie saoudite"
+"Senegal","Sénégal"
+"Serbia","Serbie"
+"Seychelles","Seychelles"
+"Sierra Leone","Sierra Leone"
+"Singapore","Singapour"
+"Slovakia","Slovaquie"
+"Slovenia","Slovénie"
+"Solomon Islands","Îles Salomon"
+"Somalia","Somalie"
+"South Africa","Afrique du Sud"
+"South Korea","Corée du Sud"
+"South Sudan","Soudan du Sud"
+"Spain","Espagne"
+"Sri Lanka","Sri Lanka"
+"Sudan","Soudan"
+"Suriname","Suriname"
+"Swaziland","Swaziland"
+"Sweden","Suède"
+"Switzerland","Suisse"
+"Syria","Syrie"
+"Tajikistan","Tadjikistan"
+"Tanzania","Tanzanie"
+"United Republic of Tanzania","République-Unie de Tanzanie"
+"Thailand","Thaïlande"
+"Togo","Togo"
+"Tonga","Tonga"
+"Trinidad and Tobago","Trinité-et-Tobago"
+"Tunisia","Tunisie"
+"Turkey","Turquie"
+"Turkmenistan","Turkménistan"
+"Tuvalu","Tuvalu"
+"Uganda","Ouganda"
+"Ukraine","Ukraine"
+"United Arab Emirates","Émirats arabes unis"
+"United Kingdom","Royaume-Uni"
+"United States of America","États-Unis"
+"Uruguay","Uruguay"
+"Uzbekistan","Ouzbékistan"
+"Vanuatu","Vanuatu"
+"Venezuela","Venezuela"
+"Venezuela (Bolivarian Republic of)","Venezuela (République bolivarienne du)"
+"Viet Nam","Viêt Nam"
+"Yemen","Yémen"
+"Zambia","Zambie"
+"Zimbabwe","Zimbabwe"
+"The former Yugoslav Republic of Macedonia","l'ex-République yougoslave de Macédoine"
+"Timor-Leste","Timor-Leste"
+"Sao Tome and Principe","Sao Tomé-et-Principe"
