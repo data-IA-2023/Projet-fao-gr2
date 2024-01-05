@@ -79,9 +79,10 @@ for i,row in da.iterrows():
         #print(c[c["Produit"]==row["Produit"]]["Valeur"])
         b=(a/c[c["Produit"]==row["Produit"]]["Valeur"]).iloc[0]
         #print(b.iloc[0])
+        if b == 0 : b = 'NaN'
     except:b='NaN'
     L.append(pd.DataFrame({'Ratio énergetique (Kcal/kg)':[b]}))
-print(pd.concat(L,axis=0).reset_index(drop=True))
+#print(pd.concat(L,axis=0).reset_index(drop=True))
 da=pd.concat([da,pd.concat(L,axis=0).reset_index(drop=True)],axis=1)
 #print("c\n",c)
 del a,L,b,c
