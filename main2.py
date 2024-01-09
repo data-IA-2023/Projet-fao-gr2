@@ -5,9 +5,10 @@ vg = pd.read_csv('fao_2013/FAOSTAT_2013_vegetal.csv')
 an = pd.read_csv('fao_2013/FAOSTAT_2013_animal.csv')
 
 nour=pd.concat([an,vg],axis=0).sort_values(by=['Code Pays','Code Produit']).reset_index(drop=True)
-countrypop=pd.concat([pop[['Country Code','Country']],pop['Value']*1000],axis=1)
-unified_df=nour.merge(countrypop,how="left",left_on="Code Pays",right_on="Country Code")[["Code Élément","Code Produit", "Code Pays","Value","Valeur"]].rename(columns={"Value":"Population"})
-values=pd.Series([unified_df[unified_df["Code Pays"]==i].pivot_table(values='Valeur', index='Code Produit', columns='Code Élément') for i in pop['Country Code']],index=pop['Country Code']).rename_axis("Code Pays")
+pop_pays=pd.concat([pop['Country Code'],pop['Value']*1000],axis=1).rename(columns={"Country Code":"Code Pays","Value":"Population"})
+df_uni=nour.merge(pop_pays,how="left",left_on="Code Pays",right_on="Code Pays")[["Code Élément","Code Produit", "Code Pays","Population","Valeur"]]
+valeurs=pd.Series([df_uni[df_uni["Code Pays"]==i].pivot_table(values='Valeur', index='Code Produit', columns='Code Élément') for i in pop['Country Code']],index=pop['Country Code']).rename_axis("Code Pays")
 
-print(values[351][645][2511])
-print(countrypop)
+print(df_uni)
+print(valeurs)
+print(pop_pays)
