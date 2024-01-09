@@ -10,3 +10,4 @@ unified_df=nour.merge(countrypop,how="left",left_on="Code Pays",right_on="Countr
 values=pd.Series([unified_df[unified_df["Code Pays"]==i].pivot_table(values='Valeur', index='Code Produit', columns='Code Élément') for i in pop['Country Code']],index=pop['Country Code']).rename_axis("Code Pays")
 
 print(values[351][645][2511])
+print(countrypop)
