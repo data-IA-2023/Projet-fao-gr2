@@ -12,5 +12,5 @@ valeurs_moy=nour.pivot_table(values='Valeur', index='Code Produit', columns='Cod
 valeurs_tot=nour.pivot_table(values='Valeur', index='Code Produit', columns='Code Élément',aggfunc='sum')
 
 print(df_uni)
-print(valeurs)
+print(valeurs_moy)
 print(pop_pays)
