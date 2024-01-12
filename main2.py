@@ -34,8 +34,8 @@ valeurs_cer=pd.concat([valeurs_cer,pd.Series([valeurs_cer_moy,valeurs_cer_tot],i
 
 valeurs_4d=pd.Series([valeurs,valeurs_veg,valeurs_ani,valeurs_cer],index=["glob","veg","ani","cer"])
 
-ratio=pd.Series([valeurs[i][664]/valeurs[i][645]*365 for i in pop['Country Code']],index=pop['Country Code']).rename_axis("Code Pays")
-ratio_moy=valeurs_moy[664]/valeurs_moy[645]*365
+ratio_eng=pd.Series([valeurs[i][664]/valeurs[i][645]*365 for i in pop['Country Code']],index=pop['Country Code']).rename_axis("Code Pays")
+ratio_eng_moy=valeurs_moy[664]/valeurs_moy[645]*365
 
 #print(df_uni)
 #print(valeurs_veg_tot[5301]*ratio_moy*10**6)
