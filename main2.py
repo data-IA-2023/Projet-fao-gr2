@@ -49,7 +49,7 @@ print("La disponibilité intérieur mondiale en végétaux est de : " + str((val
 #Question 11 Établissez la liste des produits (ainsi que leur code) considéré comme des céréales selon la FAO. En ne prenant en compte que les céréales destinées à l'alimentation (humaine et animale), quelle proportion (en termes de poids) est destinée à l'alimentation animale ?
 print("Les codes des céréales sont : " + str(valeurs_4d["cer"]["tot"].index.tolist()))
 
-print("Le rapport de céréales destinées à l'alimentation animale est : " + str(valeurs_4d["cer"]["tot"][5521].sum()/valeurs_4d["cer"]["tot"][5511].sum()))
+print("La proportion de céréales destinées à l'alimentation animale est : " + str(valeurs_4d["cer"]["tot"][5521].sum()/valeurs_4d["cer"]["tot"][5511].sum()))
 
 #Question 13 Combien de tonnes de céréales pourraient être libérées si les USA diminuaient leur production de produits animaux de 10% ?
 print(str(valeurs_4d["cer"][231][5521].sum()*100) + " tonnes de céréales pouraient être libérées si les USA diminuaient leur production de produits animaux de 10%.")
