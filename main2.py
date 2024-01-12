@@ -34,11 +34,22 @@ valeurs_cer=pd.concat([valeurs_cer,pd.Series([valeurs_cer_moy,valeurs_cer_tot],i
 
 valeurs_4d=pd.Series([valeurs,valeurs_veg,valeurs_ani,valeurs_cer],index=["glob","veg","ani","cer"])
 
-#Question 4 Calculez pour chaque produit le ratio "énergie/poids", que vous donnerez en kcal/kg.
+
 ratio_eng=pd.Series([valeurs[i][664]/valeurs[i][645]*365 for i in pop['Country Code']],index=pop['Country Code']).rename_axis("Ratio énergétique en kcal/kg")
 ratio_eng_moy=(valeurs_moy[664]/valeurs_moy[645]*365).rename_axis("Ratio énergétique en kcal/kg")
 
+"""
+utilisation de valeurs_4d :
+valeurs_4d[<catégorie>][<Code pays ou "tot" pour total ou "moy" pour moyenne>][<Code Elément>][<Code Produit>] -> la bonne valeur
 
+utilisation de valeurs_sa :
+valeurs_sa[<Code pays>] -> nombres de personnes en sous alimentation
+
+utilisation de pop_pays :
+pop_pays[<Code pays>] -> population du pays
+"""
+
+#Question 4 Calculez pour chaque produit le ratio "énergie/poids", que vous donnerez en kcal/kg.
 print("")
 print(ratio_eng_moy)
 print("")
