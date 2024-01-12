@@ -39,7 +39,7 @@ ratio_eng_moy=valeurs_moy[664]/valeurs_moy[645]*365
 
 
 #Question 6 Calculez, pour les produits végétaux uniquement, la disponibilité intérieure mondiale exprimée en kcal.
-print("La disponibilité intérieur mondiale est de : " + str((valeurs_4d["veg"]["tot"][5301]/ratio_eng_moy).sum()*10**6) + " kcal.")
+print("La disponibilité intérieur mondiale en végétaux est de : " + str((valeurs_4d["veg"]["tot"][5301]/ratio_eng_moy).sum()*10**6) + " kcal.")
 
 #Question 11 Établissez la liste des produits (ainsi que leur code) considéré comme des céréales selon la FAO. En ne prenant en compte que les céréales destinées à l'alimentation (humaine et animale), quelle proportion (en termes de poids) est destinée à l'alimentation animale ?
 print("Les codes des céréales sont : " + str(valeurs_4d["cer"]["tot"].index.tolist()))
