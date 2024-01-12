@@ -57,4 +57,4 @@ print(str(valeurs_4d["cer"][231][5521].sum()*100) + " tonnes de céréales poura
 #Question 14 En Thaïlande, quelle proportion de manioc est exportée ? Quelle est la proportion de personnes en sous-nutrition?
 print("La proportion de manioc exportée en Thaïlande est de : " + str(valeurs_4d["veg"][216][5911][2532]/valeurs_4d["veg"][216][5511][2532]))
 
-print("La proportion de personnes en sous-nutrition est de : " + str(valeurs_sa[216]/pop_pays[216]))
+print("La proportion de personnes en sous-nutrition en Thaïlande est de : " + str(valeurs_sa[216]/pop_pays[216]))
