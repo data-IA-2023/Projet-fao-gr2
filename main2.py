@@ -34,9 +34,14 @@ valeurs_cer=pd.concat([valeurs_cer,pd.Series([valeurs_cer_moy,valeurs_cer_tot],i
 
 valeurs_4d=pd.Series([valeurs,valeurs_veg,valeurs_ani,valeurs_cer],index=["glob","veg","ani","cer"])
 
-ratio_eng=pd.Series([valeurs[i][664]/valeurs[i][645]*365 for i in pop['Country Code']],index=pop['Country Code']).rename_axis("Code Pays")
-ratio_eng_moy=valeurs_moy[664]/valeurs_moy[645]*365
+#Question 4 Calculez pour chaque produit le ratio "énergie/poids", que vous donnerez en kcal/kg.
+ratio_eng=pd.Series([valeurs[i][664]/valeurs[i][645]*365 for i in pop['Country Code']],index=pop['Country Code']).rename_axis("Ratio énergétique en kcal/kg")
+ratio_eng_moy=(valeurs_moy[664]/valeurs_moy[645]*365).rename_axis("Ratio énergétique en kcal/kg")
 
+
+print("")
+print(ratio_eng_moy)
+print("")
 
 #Question 6 Calculez, pour les produits végétaux uniquement, la disponibilité intérieure mondiale exprimée en kcal.
 print("La disponibilité intérieur mondiale en végétaux est de : " + str((valeurs_4d["veg"]["tot"][5301]/ratio_eng_moy).sum()*10**6) + " kcal.")
