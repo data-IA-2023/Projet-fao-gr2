@@ -8,11 +8,10 @@ an = pd.read_csv('fao_2013/FAOSTAT_2013_animal.csv')
 ce = pd.read_csv('fao_2013/FAOSTAT_2013_cereal.csv')
 sa = pd.read_csv('fao_2013/FAOSTAT_2013_sous_alimentation.csv')
 
-poptop=pop[pop["Country Code"]!=351].sort_values(by="Value").tail(10)
+valeurs_sa=pd.Series([sa[sa["Code zone"]==i]["Valeur"].values[0]*10**6 for i in pop['Country Code']],index=pop['Country Code'])
 
 nour=pd.concat([an,vg,ce],axis=0).sort_values(by=['Code Pays','Code Produit']).drop_duplicates().reset_index(drop=True)
-pop_pays=pd.concat([pop['Country Code'],pop['Value']*1000],axis=1).rename(columns={"Country Code":"Code Pays","Value":"Population"})
-df_uni=nour.merge(pop_pays,on="Code Pays")[["Code Élément","Code Produit", "Code Pays","Population","Valeur"]]
+pop_pays=pop['Value'].rename_axis("Population").set_axis(pop['Country Code'])*1000
 
 valeurs=pd.Series([nour[nour["Code Pays"]==i].pivot_table(values='Valeur', index='Code Produit', columns='Code Élément') for i in pop['Country Code']],index=pop['Country Code']).rename_axis("Code Pays")
 valeurs_veg=pd.Series([vg[vg["Code Pays"]==i].pivot_table(values='Valeur', index='Code Produit', columns='Code Élément') for i in pop['Country Code']],index=pop['Country Code']).rename_axis("Code Pays")
@@ -35,21 +34,25 @@ valeurs_cer=pd.concat([valeurs_cer,pd.Series([valeurs_cer_moy,valeurs_cer_tot],i
 
 valeurs_4d=pd.Series([valeurs,valeurs_veg,valeurs_ani,valeurs_cer],index=["glob","veg","ani","cer"])
 
-"""
 ratio=pd.Series([valeurs[i][664]/valeurs[i][645]*365 for i in pop['Country Code']],index=pop['Country Code']).rename_axis("Code Pays")
 ratio_moy=valeurs_moy[664]/valeurs_moy[645]*365
-"""
+
 #print(df_uni)
 #print(valeurs_veg_tot[5301]*ratio_moy*10**6)
 #print(valeurs_4d["ce"]["tot"].index.values.tolist())
 #print([e for e in valeurs_4d["ce"]["tot"].index.values.tolist()])
 
-#Question 11
-print(valeurs_4d["cer"]["tot"][5521].sum()/valeurs_4d["cer"]["tot"][5511].sum())
+poptop=pop[pop["Country Code"]!=351].sort_values(by="Value").tail(10)
 
-#Question 13
-print(valeurs_4d["cer"][231][5521].sum()*100)
+#Question 11 Établissez la liste des produits (ainsi que leur code) considéré comme des céréales selon la FAO. En ne prenant en compte que les céréales destinées à l'alimentation (humaine et animale), quelle proportion (en termes de poids) est destinée à l'alimentation animale ?
+print("Les codes des céréales sont : " + str(valeurs_4d["cer"]["tot"].index.tolist()))
 
-#Question 14
-print(valeurs_4d["veg"][216][5911][2532])
-print((sa[sa["Code zone"]==216]["Valeur"].values*10**6/pop_pays[pop_pays["Code Pays"]==216]["Population"].values)[0])
+print("Le rapport de céréales destinées à l'alimentation animale est : " + str(valeurs_4d["cer"]["tot"][5521].sum()/valeurs_4d["cer"]["tot"][5511].sum()))
+
+#Question 13 Combien de tonnes de céréales pourraient être libérées si les USA diminuaient leur production de produits animaux de 10% ?
+print(str(valeurs_4d["cer"][231][5521].sum()*100) + " tonnes de céréales pouraient être libérées si les USA diminuaient leur production de produits animaux de 10%.")
+
+#Question 14 En Thaïlande, quelle proportion de manioc est exportée ? Quelle est la proportion de personnes en sous-nutrition?
+print("La proportion de manioc exportée en Thaïlande est de : " + str(valeurs_4d["veg"][216][5911][2532]/valeurs_4d["veg"][216][5511][2532]))
+
+print("La proportion de personnes en sous-nutrition est de : " + str(valeurs_sa[216]/pop_pays[216]))
